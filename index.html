@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Chess Bot</title>
+    <link rel="shortcut icon" href="./img/chesspieces/wikipedia/wP.png" type="image/x-icon">
+</head>
+<body>
+<h1 class="h1">AI Chess Bot</h1>
+<div id="board" class="board"></div>
+<div class="info">
+    Difficulty:
+    <select id="search-depth">
+        <option value="1">1 - Beginner</option>
+        <option value="2">2 - Easy</option>
+        <option value="3" selected>3 - Normal</option>
+        <option value="4">4 - Hard</option>
+        <option value="5">5 - Extreme</option>
+    </select>
+
+    <br>
+    <br>
+    <span>Positions Evaluated: <span id="position-count"></span></span>
+    <br>
+    <span>Time Elapsed: <span id="time"></span></span>
+    <br>
+    <br>
+    <span>Move History: <span>
+    <br>
+    <br>
+    <div id="move-history" class="move-history">
+    </div>
+</div>
+<script src="lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="lib/chessboardjs/js/chess.js"></script>
+<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="script.js"></script>
+<script>
+
+</script>
+</body>
+</html>
