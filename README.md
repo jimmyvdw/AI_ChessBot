@@ -1,7 +1,5 @@
 # AI ChessBot
 
-# JavaScript AI Chess Algorithm with Alpha-Beta Pruning, Piece-Square Tables, and Difficulty Levels
-
 This project implements a chess-playing AI using a JavaScript-based algorithm that employs Alpha-Beta Pruning for improved efficiency during search and utilizes Piece-Square Tables for board evaluation. The AI also offers five difficulty levels set out by level searching. Additionally, it includes an HTML and CSS GUI to interact with the AI and play chess.
 
 ## Table of Contents
